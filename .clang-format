@@ -1,0 +1,25 @@
+# RAD C++ style
+# Written by Native. Files under this file are formatted on save.
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 0
+BreakBeforeBraces: Attach
+SpaceBeforeParens: ControlStatements
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortLoopsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+MaxEmptyLinesToKeep: 4
+KeepEmptyLinesAtTheStartOfBlocks: true
+IndentCaseLabels: true
+SortIncludes: Never
+AlignConsecutiveAssignments: None
+AlignConsecutiveDeclarations: None
+AlignTrailingComments:
+  Kind: Leave
+PointerAlignment: Left
+ReflowComments: false
+FixNamespaceComments: false
